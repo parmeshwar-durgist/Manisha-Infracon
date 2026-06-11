@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View Manisha Infracon's project gallery. Browse high-resolution images of our fully automated batching plants, transit mixers, concrete pouring, and infrastructure construction sites.">
+  <meta name="keywords" content="RMC gallery, Concrete plant photos, Concrete mixer trucks, Concrete pouring visual, Construction sites">
+  <meta name="author" content="Manisha Infracon">
+  <title>Gallery | Manisha Infracon</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner-box">
+      <div class="custom-spinner"></div>
+      <div class="preloader-logo">Manisha<span>Infracon</span></div>
+    </div>
+  </div>
+
+  <!-- Top Address Header Bar -->
+  <div class="topbar d-none d-lg-block">
+    <div class="container text-white d-flex justify-content-between align-items-center">
+      <div class="topbar-info">
+        <a href="tel:+919657847967" class="me-3"><i class="bi bi-telephone-fill text-orange me-2"></i>+91 9657847967</a>
+        <span class="topbar-divider me-3"></span>
+        <a href="mailto:info@manishainfracon.com"><i class="bi bi-envelope-fill text-orange me-2"></i>info@manishainfracon.com</a>
+      </div>
+      <div class="topbar-hours">
+        <i class="bi bi-clock-fill text-orange me-2"></i>Mon - Sat: 8:00 AM - 6:00 PM | Sunday: Closed
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Modern Glass Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/logo.png" alt="Manisha Infracon Logo" style="height: 65px; width: auto; object-fit: contain;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="manufacturing-process.html">Process</a></li>
+          <li class="nav-item"><a class="nav-link" href="applications.html">Applications</a></li>
+          <li class="nav-item"><a class="nav-link" href="why-choose-us.html">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="quality-certifications.html">Quality</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="ms-lg-3">
+          <a href="contact.html" class="btn btn-primary-custom btn-custom">Get Estimate</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Inner Page Hero Header -->
+  <section class="inner-hero">
+    <div class="inner-hero-overlay"></div>
+    <img src="images/hero_banner_rmc.png" alt="Gallery Banner" class="hero-bg-img" style="filter: blur(2px);">
+    <div class="container position-relative" style="z-index: 2;">
+      <div class="row">
+        <div class="col-12">
+          <span class="hero-badge">Our Portfolio</span>
+          <h1 class="display-4 fw-bold text-white mb-3">Project Gallery</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Grid Section -->
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="section-title-wrapper text-center mb-5">
+        <span class="section-subtitle">Visuals</span>
+        <h2 class="section-title">Site Operations & Plant Showcase</h2>
+        <div class="section-title-line mx-auto"></div>
+        <p class="text-muted mt-3 mx-auto" style="max-width: 600px;">
+          Filter through our concrete batch towers, mixers, infrastructure pouring, and heavy casting construction sites. Click on any thumbnail to open the lightbox.
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div class="text-center mb-5">
+        <button class="gallery-filter-btn active" data-filter="all">All Photos</button>
+        <button class="gallery-filter-btn" data-filter="plants">RMC Plant</button>
+        <button class="gallery-filter-btn" data-filter="mixers">Transit Mixers</button>
+        <button class="gallery-filter-btn" data-filter="pouring">Concrete Pouring</button>
+        <button class="gallery-filter-btn" data-filter="sites">Construction Sites</button>
+        <button class="gallery-filter-btn" data-filter="infra">Infrastructure Projects</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="row g-4">
+        
+        <!-- Image 1 -->
+        <div class="col-lg-4 col-md-6 gallery-item-col" data-category="plants">
+          <div class="gallery-item-wrapper" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-lightbox-src="images/hero_banner_rmc.png" data-lightbox-caption="Automated Batch Towers and Silos at Metro City Plant">
+            <img src="images/hero_banner_rmc.png" alt="RMC Plant" class="gallery-item-img">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-icon"><i class="bi bi-zoom-in"></i></div>
+              <h5 class="text-white fw-bold">Manisha Batching Plant</h5>
+              <p class="text-white-50 small mb-0">RMC Plant</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="col-lg-4 col-md-6 gallery-item-col" data-category="mixers">
+          <div class="gallery-item-wrapper" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-lightbox-src="images/hero_banner_rmc.png" data-lightbox-caption="Transit Mixer Trucks Cleaned and Lined Up for Loading Dispatch">
+            <img src="images/hero_banner_rmc.png" alt="Transit Mixer Lineup" class="gallery-item-img" style="filter: hue-rotate(45deg);">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-icon"><i class="bi bi-zoom-in"></i></div>
+              <h5 class="text-white fw-bold">Mixer Fleet Lineup</h5>
+              <p class="text-white-50 small mb-0">Transit Mixers</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="col-lg-4 col-md-6 gallery-item-col" data-category="pouring">
+          <div class="gallery-item-wrapper" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-lightbox-src="images/concrete_pouring.png" data-lightbox-caption="High Volume Concrete Pouring for Foundation Raft Casting">
+            <img src="images/concrete_pouring.png" alt="Concrete Pouring" class="gallery-item-img">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-icon"><i class="bi bi-zoom-in"></i></div>
+              <h5 class="text-white fw-bold">Raft Foundation Pouring</h5>
+              <p class="text-white-50 small mb-0">Concrete Pouring</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 4 -->
+        <div class="col-lg-4 col-md-6 gallery-item-col" data-category="sites">
+          <div class="gallery-item-wrapper" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-lightbox-src="images/green_concrete.png" data-lightbox-caption="Commercial Building Structural Frame Casting with Green Concrete">
+            <img src="images/green_concrete.png" alt="Construction Site" class="gallery-item-img">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-icon"><i class="bi bi-zoom-in"></i></div>
+              <h5 class="text-white fw-bold">Green Building Site</h5>
+              <p class="text-white-50 small mb-0">Construction Sites</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 5 -->
+        <div class="col-lg-4 col-md-6 gallery-item-col" data-category="infra">
+          <div class="gallery-item-wrapper" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-lightbox-src="images/quality_testing.png" data-lightbox-caption="Massive Highway Pier Structural Quality Verification Audits">
+            <img src="images/quality_testing.png" alt="Highway Pier Site" class="gallery-item-img">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-icon"><i class="bi bi-zoom-in"></i></div>
+              <h5 class="text-white fw-bold">Highway Bridge Project</h5>
+              <p class="text-white-50 small mb-0">Infrastructure Projects</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 6 -->
+        <div class="col-lg-4 col-md-6 gallery-item-col" data-category="pouring">
+          <div class="gallery-item-wrapper" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-lightbox-src="images/concrete_pouring.png" data-lightbox-caption="Skilled Mason Crew Leveling Concrete on Slab Formwork">
+            <img src="images/concrete_pouring.png" alt="Mason Leveling" class="gallery-item-img" style="filter: grayscale(40%);">
+            <div class="gallery-item-overlay">
+              <div class="gallery-item-icon"><i class="bi bi-zoom-in"></i></div>
+              <h5 class="text-white fw-bold">Slab Leveling Masons</h5>
+              <p class="text-white-50 small mb-0">Concrete Pouring</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Rich Corporate Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <a class="footer-logo d-flex align-items-center" href="index.html">
+            <img src="images/logo.png" alt="Manisha Infracon Logo" style="height: 75px; width: auto; object-fit: contain;">
+          </a>
+          <p class="text-white-50 mb-4 pe-lg-4">
+            Manisha Infracon is a premier supplier of high-performance ready-mix concrete materials. We guarantee structural strength, durability, and logistical excellence for projects of all sizes.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i>Home</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right"></i>About Us</a></li>
+            <li><a href="manufacturing-process.html"><i class="bi bi-chevron-right"></i>Process</a></li>
+            <li><a href="applications.html"><i class="bi bi-chevron-right"></i>Applications</a></li>
+            <li><a href="why-choose-us.html"><i class="bi bi-chevron-right"></i>Why Us</a></li>
+            <li><a href="gallery.html"><i class="bi bi-chevron-right"></i>Gallery</a></li>
+            <li><a href="quality-certifications.html"><i class="bi bi-chevron-right"></i>Quality</a></li>
+            <li><a href="faq.html"><i class="bi bi-chevron-right"></i>FAQs</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right"></i>Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Our Products</h5>
+          <ul class="footer-links">
+            <li><a href="products.html"><i class="bi bi-chevron-right"></i>High-Grade Concrete</a></li>
+            <li><a href="products.html"><i class="bi bi-chevron-right"></i>Self-Compacting (SCC)</a></li>
+            <li><a href="products.html"><i class="bi bi-chevron-right"></i>Green Concrete</a></li>
+            <li><a href="products.html"><i class="bi bi-chevron-right"></i>Porous / Pervious Concrete</a></li>
+            <li><a href="products.html"><i class="bi bi-chevron-right"></i>Fiber Reinforced Concrete</a></li>
+            <li><a href="products.html"><i class="bi bi-chevron-right"></i>Stamp & Color Concrete</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-heading">Newsletter</h5>
+          <p class="footer-newsletter-text">
+            Subscribe to our corporate newsletter to receive regular updates on green concrete innovations, pricing, and infrastructure trends.
+          </p>
+          <form class="newsletter-form">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+              <button class="btn" type="submit"><i class="bi bi-send-fill"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-md-start mb-3 mb-md-0">
+            &copy; 2026 Manisha Infracon. All rights reserved.
+          </div>
+          <div class="col-md-6 text-md-end footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Support</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Gallery Modal -->
+  <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-transparent border-0">
+        <div class="modal-header border-0 p-0 position-relative">
+          <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 10;"></button>
+        </div>
+        <div class="modal-body p-0 text-center">
+          <img src="" alt="Lightbox View" class="img-fluid rounded lightbox-modal-img shadow-lg" style="max-height: 80vh; width: auto;">
+          <div class="lightbox-modal-caption text-white mt-3 fs-5 py-2 px-3 bg-navy rounded d-inline-block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
